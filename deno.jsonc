@@ -8,5 +8,10 @@
       "ffi": true
     }
   },
-  "tasks": { "ok": "deno fmt --check && deno lint && deno check" }
+  "tasks": {
+    "ok": "deno fmt --check && deno lint && deno check"
+  },
+  "imports": {
+    "@knorpelsenf/knorpelsolve": "jsr:@knorpelsenf/knorpelsolve@^1.4.2"
+  }
 }
