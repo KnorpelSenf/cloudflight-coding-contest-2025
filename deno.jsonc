@@ -1,0 +1,13 @@
+{
+  "lock": false,
+  "permissions": {
+    "default": {
+      "sys": true,
+      "read": true,
+      "write": true,
+      "net": ["jsr.io"],
+      "ffi": true
+    }
+  },
+  "tasks": { "ok": "deno fmt --check && deno lint && deno check" }
+}
