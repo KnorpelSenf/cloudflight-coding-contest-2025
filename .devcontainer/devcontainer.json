@@ -1,0 +1,17 @@
+{
+  "name": "Existing Dockerfile",
+  "build": {
+    "context": "..",
+    "dockerfile": "./Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  },
+  "postCreateCommand": "deno i"
+}
