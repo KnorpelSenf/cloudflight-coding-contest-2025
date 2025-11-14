@@ -4,7 +4,7 @@ RUN apt-get update && \
     DEBIEN_FRONTEND=noninteractive apt-get install -y \
     --no-install-recommends \
     ## dev
-    vim tmux \
+    vim tmux && \
     ## reduce image size
     rm -rf /var/lib/apt/lists/*
 
